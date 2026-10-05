@@ -1,0 +1,6 @@
+{
+  "name": "kitsune",
+  "version-string": "0.0.1",
+  "builtin-baseline": "ee6a47dac031930715bea2e6dfb9ad60caaa5d83",
+  "dependencies": ["asio", "protobuf"]
+}

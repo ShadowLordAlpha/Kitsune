@@ -1,0 +1,35 @@
+# Build trees (CLion cmake-build-* and CMake presets under build/)
+/build/
+/cmake-build-*/
+/out/
+
+# CLion / IntelliJ
+/.idea/*
+!/.idea/vcs.xml
+*.iws
+
+# Compiled objects and libraries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# Official clients, Ghidra databases, and decompiler dumps stay on disk.
+# Paths to them belong in local/ (gitignored), never in the tree.
+/local/
+*.gbf
+*.gzf
+*.rep
+*.SC2Map
+*.SC2Replay
+
+# vcpkg manifest installs land in the build tree. A classic install beside
+# the source stays out of the tree as well.
+/vcpkg_installed/
